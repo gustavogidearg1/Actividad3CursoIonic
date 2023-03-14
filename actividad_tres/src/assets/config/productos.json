@@ -1,0 +1,27 @@
+[
+  {
+    "urlImage":"../assets/img/CocaCola-sinAzucar500.png",
+    "Prodcuto": "Cocacola sin azucar x 500",
+    "valor": 300,
+    "valorConDescuento": 280
+  },
+  {
+    "urlImage":"../assets/img/Fanta500ml.png",
+    "Prodcuto": "Fanta x 500",
+    "valor": 280,
+    "valorConDescuento": 260
+  }
+  ,
+  {
+    "urlImage":"../assets/img/fideos.jpg",
+    "Prodcuto": "Fideso x 1 kg",
+    "valor": 450,
+    "valorConDescuento": 400
+  },
+  {
+    "urlImage":"../assets/img/Galletitas.jpg",
+    "Prodcuto": "Galletitas terrabusi x 800 gr",
+    "valor": 350,
+    "valorConDescuento": 300
+  }
+]

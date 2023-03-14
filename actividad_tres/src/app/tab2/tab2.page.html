@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <ion-icon name="fast-food-outline"></ion-icon>
+      Productos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let item of productos | async " size="12" size-sm="12" size-md="12" size-lg="12" size-xl="12">
+      <ion-card>
+        <img [src]="item.urlImage" title="img banana"/>
+        <ion-card-header>
+          <ion-card-subtitle>Promocion</ion-card-subtitle>
+          <ion-card-title>{{item.Producto}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+  <p>
+    <b>Valor:{{item.valorConDescuento}}</b> - <s><b>{{item.valor}}</b></s>
+
+    <ion-button expand="block" fill="outline">Agregar</ion-button>
+  </p>
+
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
